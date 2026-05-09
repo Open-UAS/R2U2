@@ -1,3 +1,4 @@
 idf_component_register(SRCS "lib.c"
-                    INCLUDE_DIRS "engines" "include" "instructions" "internals" "memory")
-# could change INCLUDE_DIRS "." I think
+                    REQUIRES "internals" "engines"
+                    PRIV_REQUIRES "csv_trace"
+                    INCLUDE_DIRS "include")

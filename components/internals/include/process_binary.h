@@ -2,7 +2,7 @@
 #define R2U2_ENGINES_PROCESS_BINARY_H
 
 #include "errors.h"
-#include "../memory/monitor.h"
+#include "monitor.h"
 
 /// @brief      Reads from spec binary, filling out instruction memory and instruction table
 /// @param[out]  monitor  Pointer to r2u2_monitor_t

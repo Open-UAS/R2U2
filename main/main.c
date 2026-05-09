@@ -4,6 +4,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include "r2u2.h"
+#include "csv_trace.h"
 
 void app_main(void) {
     r2u2_csv_reader_t r2u2_csv_reader = {0};

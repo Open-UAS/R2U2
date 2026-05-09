@@ -3,13 +3,13 @@
 
 #include <stdio.h> // Used for file type
 
-#include "../internals/config.h"
-#include "../internals/types.h"
+#include "config.h"
+#include "types.h"
 #if R2U2_AUX_STRING_SPECS
-#include "../instructions/aux_info.h"
+#include "aux_info.h"
 #endif
-#include "../instructions/booleanizer.h"
-#include "../instructions/mltl.h"
+#include "booleanizer.h"
+#include "mltl.h"
 
 #include "shared_connection_queue.h"
 

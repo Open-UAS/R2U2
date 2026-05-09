@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdbool.h>
-#include "../internals/config.h"
+#include "config.h"
 
 /* Portable form of marking unused  */
 // From: https://stackoverflow.com/a/3599170 [CC BY-SA 3.0]

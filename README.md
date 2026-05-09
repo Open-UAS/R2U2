@@ -20,7 +20,7 @@ Guide: <https://learn.microsoft.com/en-us/windows/wsl/connect-usb>
 5. Whenever you plug in the controller, execute the .bat file.
 6. To see the available usb devices on Ubuntu, run the "lsusb" command in the Linux terminal. It will probably be "/dev/ttyUSB0".
 
-### Espressif
+## Espressif
 Guide with CLI build/flash commands: <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-macos-start-project.html#activate-using-eim-cli>
 - Command to initiate esp idf in terminal:source "/home/\<usr\>/.espressif/tools/activate_idf_v6.0.1.sh"
     - must be run every time terminal is reset
