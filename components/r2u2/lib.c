@@ -1,8 +1,8 @@
-#include "internals/config.h"
+#include "config.h"
 #include "r2u2.h"
-#include "internals/debug.h"
-#include "internals/process_binary.h"
-#include "engines/engines.h"
+#include "debug.h"
+#include "process_binary.h"
+#include "engines.h"
 #include <string.h>
 
 #if R2U2_DEBUG

@@ -1,8 +1,8 @@
 #ifndef R2U2_CLI_CSV_TRACE_H
 #define R2U2_CLI_CSV_TRACE_H
 
-#include "internals/errors.h"
-#include "memory/monitor.h"
+#include "errors.h"
+#include "monitor.h"
 
 typedef struct {
   FILE* input_file;

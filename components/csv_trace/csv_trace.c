@@ -1,7 +1,7 @@
-#include "internals/config.h"
+#include "config.h"
 #include "csv_trace.h"
 #include "r2u2.h"
-#include "internals/debug.h"
+#include "debug.h"
 #include <stdio.h>
 #include <string.h>
 

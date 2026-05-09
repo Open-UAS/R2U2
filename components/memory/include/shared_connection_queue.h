@@ -1,10 +1,10 @@
 #ifndef R2U2_MEMORY_SCQ_H
 #define R2U2_MEMORY_SCQ_H
 
-#include "../internals/config.h"
-#include "../internals/debug.h"
-#include "../internals/types.h"
-#include "../internals/errors.h"
+#include "config.h"
+#include "debug.h"
+#include "types.h"
+#include "errors.h"
 #include <stdio.h>
 
  typedef struct {

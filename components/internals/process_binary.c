@@ -2,9 +2,9 @@
 #include "process_binary.h"
 #include "debug.h"
 #include "bounds.h"
-#include "../engines/booleanizer.h"
-#include "../engines/mltl.h"
-#include "../engines/engines.h"
+#include "engine_booleanizer.h"
+#include "engine_mltl.h"
+#include "engines.h"
 #include <string.h>
 
 r2u2_status_t r2u2_process_binary(r2u2_monitor_t* monitor, uint8_t* spec) {

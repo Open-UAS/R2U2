@@ -1,8 +1,8 @@
 #ifndef R2U2_H
 #define R2U2_H
 
-#include "internals/errors.h"
-#include "memory/monitor.h"
+#include "errors.h"
+#include "monitor.h"
 
 /// @brief      Update monitor with new spec file
 /// @param[in]  spec  Pointer to binary spec file

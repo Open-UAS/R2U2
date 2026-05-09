@@ -1,8 +1,8 @@
 #ifndef R2U2_ENGINES_AUX_INFO_H
 #define R2U2_ENGINES_AUX_INFO_H
 
-#include "../memory/monitor.h"
-#include "../instructions/aux_info.h"
+#include "monitor.h"
+#include "aux_info.h"
 
 /// @brief      Print the formula status to the monitor.out_file pointer (if possible)
 /// @param[in]  monitor  Pointer to (configured) R2U2 monitor
